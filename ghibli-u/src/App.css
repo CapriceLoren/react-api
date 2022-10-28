@@ -53,7 +53,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   background: rgba(255, 255, 255, 0.6);
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 img {
@@ -61,12 +61,47 @@ img {
   height: 400px;
 }
 
+.homeDiv{
+  display: flex;
+  flex-direction: row;
+  width: 100%vh;
+  background: rgba(255, 255, 255, 0.6);
+  margin-top: 20px;
+}
+
 .hide {
   display: none;
 }
 
-.homeDiv{
-  width: 100%vh;
-  background: rgba(255, 255, 255, 0.6);
-  margin-top: 10px;
+@media only screen and (max-width: 600px) {
+  body {
+    /* background-image: url("./img/mobile.jpg"); */
+    background-size: cover;
+  }
+
+   button {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    font-size: 15px;
+    width: 100%;
+    background-color: rgb(107, 1, 1, 0.5);
+    color: white;
+    font-family: Tahoma, sans-serif;
+   }
+
+   button:hover {
+    background-color: rgb(107, 1, 1);
+  }
+
+   .nav {
+    flex-direction: column;
+    margin: 0;
+    width: 75%;
+   }
+   
+   img {
+    display: none;
+   }
+
 }
