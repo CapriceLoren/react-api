@@ -11,11 +11,12 @@ function App() {
   const handleClick = (e) => {
     const homeDiv = document.querySelector(".homeDiv")
     let movieDiv = document.querySelector(".movieDiv")
+    let button = document.querySelector("button")
 
     movieDiv.classList.remove("hide")
     homeDiv.classList.add("hide")
+    // e.target.classList.add('selected')
     
-
     if (e.target.id === "totoro"){
       setId("58611129-2dbc-4a81-a72f-77ddfc1b1b49")
     } else if (e.target.id === "kiki"){

@@ -21,10 +21,10 @@ useEffect(() => {
       </div>
       <div className="infoDiv">
         <h3>Title: {movie.title}</h3>
-        <h4>Director: {movie.director}</h4>
-        <h4>Original Title: {movie.original_title}</h4>
-        <h4>Released: {movie.release_date}</h4>
-        <h4>Description: {movie.description}</h4>
+        <p>Director: {movie.director}</p>
+        <p>Original Title: {movie.original_title}</p>
+        <p>Released: {movie.release_date}</p>
+        <p>Description: {movie.description}</p>
       </div>
     </div> 
   );

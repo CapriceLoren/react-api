@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+body{
+  background: url("/img/WallpaperDog-992422.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.App {
+  margin: 10px;
+}
+
 h3 {
   margin: 0;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 30px;
 }
 
 .nav {
@@ -12,11 +24,20 @@ button {
   border: 0;
   width: 25%;
   padding: 10px;
+  background: linear-gradient(to right, rgba(114, 67, 112) 50%, rgba(232, 232, 232, 0.7) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
 }
 
 button:hover {
-  background-image: linear-gradient(rgba(159, 189, 237), rgba(240, 180, 219));
+  background-position: left bottom;
+  color: white;
 }
+
+.selected {
+  background: rgba(159, 189, 237);
+ }
 
 .movieImg {
   margin: 20px;
@@ -31,6 +52,8 @@ button:hover {
   /* background: url("https://cdn.dribbble.com/users/513906/screenshots/2859254/cut-2.gif"); */
   display: flex;
   flex-direction: row;
+  background: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
 }
 
 img {
@@ -44,4 +67,6 @@ img {
 
 .homeDiv{
   width: 100%vh;
+  background: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
 }
