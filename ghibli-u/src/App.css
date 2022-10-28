@@ -1,4 +1,47 @@
+h3 {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+button {
+  border: 0;
+  width: 25%;
+  padding: 10px;
+}
+
+button:hover {
+  background-image: linear-gradient(rgba(159, 189, 237), rgba(240, 180, 219));
+}
+
+.movieImg {
+  margin: 20px;
+}
+
+.infoDiv {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.movieDiv{
+  /* background: url("https://cdn.dribbble.com/users/513906/screenshots/2859254/cut-2.gif"); */
+  display: flex;
+  flex-direction: row;
+}
+
 img {
   width: auto;
   height: 400px;
+}
+
+.hide {
+  display: none;
+}
+
+.homeDiv{
+  width: 100%vh;
 }
